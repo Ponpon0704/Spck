@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="sign-in">
+            <h1>Đăng Nhập</h1>
+            <form name="formLogin" action="home.html">
+                <div class="text-box">
+                    <h3>Email</h3>
+                    <input type="text" placeholder="Nhập Email Của Bạn" name="" id=" ">
+                </div>
+                <div class="text-box">
+                    <h3>Mật Khẩu</h3>
+                    <input type="text" placeholder="Nhập Mật Khẩu Của Bạn" name="" id="">
+                </div>
+                <div class="text-box">
+                    <button type="submit">Đăng Nhập</button>
+                    <p><i class="alert" id="sign-in-alert">(*)Chưa Có Tài Khoản</i></p>
+                </div>
+            </form>
+        </div>
+        <div class="box hidden" id="sign-up" >
+            <h1>Đăng Kí</h1>
+            <form>
+                <div class="text-box">
+                    <h3>Họ Và Tên </h3>
+                    <input type="text" placeholder="Nhập Họ và Tên của bạn" name="" id="">
+                </div>
+                <div class="text-box">
+                    <h3>Email</h3>
+                    <input type="text" placeholder="Nhập Email của bạn" name="" id="">
+                </div>
+                <div class="text-box">
+                    <h3>Mật Khẩu</h3>
+                    <input type="text" placeholder="Nhập Mật Khẩu của bạn" name="" id="">
+                </div>
+                <div class="text-box">
+                    <h3>Nhập Lại Mật Khẩu</h3>
+                    <input type="text" placeholder="Nhập Lại Mật Khẩu của bạn" name="" id="">
+                </div>
+                <button type="submit" id="submit-signup">Đăng Kí</button>
+                <p><i class="dalert" id="sign-up-alert">(*) Bạn Đã Có Tài Khoản</i></p>
+            </form>
+        </div>
+    </div>
+</body>
+    <script src="./index.js"></script>
+</html>
