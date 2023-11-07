@@ -1,11 +1,14 @@
 body{
     margin: 0;
     padding: 0;
+    background-color:lightsteelblue;
+    font-size: 20px;
 }
 .nav{
     display: flex;
     justify-content: space-around;
     background-color: black;
+
 }
 a{
     display: flex;
@@ -21,20 +24,45 @@ a{
 a:hover{
     background-color:gray;
 }
-.container{
-    width: 70%;
-    justify-content: center;
-    align-items: center;
+
+img{
+    display: block;
+    margin-inline: auto;
+    width: 50%;
+    height: 500px;
 }
 #home{
-    background-color:lightblue ;
-
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
-#describe{
+#news{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.items{
+    display: inline;
+    width: 400px;
+    height: 200px;
+    justify-content: space-evenly;
+}
+.contain{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-.card{
-    width: ;
-
+#contact{
+    text-transform: uppercase;
+}
+.container{
+    padding: 8%;
+}
+#home p{ 
+    font-size: 40px;
+}
+#news p{
+    font-size: 40px;
+}
+.left{
+    float:left;
+    width: 50%;
 }
